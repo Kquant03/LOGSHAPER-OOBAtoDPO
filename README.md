@@ -1,4 +1,4 @@
-# LOGSHAPER-OOBAtoDPO
+# A Way to Convert Your Model's Responses into DPO format in Order to Train a Reward Model
 LOGSHAPER is an initiative to take all of the work I've done in [OOBA](https://github.com/oobabooga/text-generation-webui) and convert those interactions to trainable formats. This python script changes the first and second message in your logs to the "question" and "rejected" fields of DPO format.
 
 *NOTE: this will not work right if you use a greeting...this script assumes that the User is the one initiating conversation*
