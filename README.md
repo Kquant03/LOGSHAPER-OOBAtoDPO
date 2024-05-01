@@ -6,4 +6,6 @@ Step 1: Change the string in line 23 to your folder
 
 Step 2: Change the string in line 24 to an output file in jsonl of your choice
 
-Step 3: Write the "system" and "chosen" for each point in the newly created dataset.
+Step 3: From your IDE or in your terminal, run the python script. For Linux it will look something like `python3 dpo.py` and in Windows it will be `python dpo.py`
+
+Step 4: Write the "system" and "chosen" for each point in the newly created dataset.
