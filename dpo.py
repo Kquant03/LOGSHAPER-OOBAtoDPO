@@ -20,6 +20,6 @@ def convert_to_jsonl(input_folder, output_file):
                         jsonl_file.write(json.dumps(jsonl_data) + '\n')
 
 # Example usage:
-input_folder = '/home/kquant/Desktop/text-generation-webui/logs/chat/Assistant'
+input_folder = '/home/REDACTED/Desktop/text-generation-webui/logs/chat/Assistant'
 output_file = 'pneumadpo.jsonl'
 convert_to_jsonl(input_folder, output_file)
